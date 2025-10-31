@@ -1,0 +1,12 @@
+aws_region          = "us-east-1"
+project_name        = "interview-buddy"
+environment         = "staging"
+vpc_id              = "vpc-0123456789abcdef0"
+public_subnet_ids   = ["subnet-01", "subnet-02"]
+private_subnet_ids  = ["subnet-03", "subnet-04"]
+backend_image       = "123456789012.dkr.ecr.us-east-1.amazonaws.com/interview-buddy-backend:latest"
+frontend_image      = "123456789012.dkr.ecr.us-east-1.amazonaws.com/interview-buddy-frontend:latest"
+db_username         = "interview_admin"
+db_password         = "super-secure-password"
+backend_desired_count  = 2
+frontend_desired_count = 2
